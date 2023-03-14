@@ -6,10 +6,19 @@ const Header = () => {
     <header>
       <Navbar bg='dark' variant='dark' collapseOnSelect expand='lg'>
         <Container>
-          <Navbar.Brand href='/'>That Science Teacher</Navbar.Brand>
+          <Navbar.Brand href='#home'>
+            <img
+              alt=''
+              src={require('../logo.png')}
+              width='35'
+              height='35'
+              className='d-inline-block align-top'
+            />{' '}
+            That Science Teacher
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
-            <Nav className='ml-auto'>
+            <Nav className='ms-auto'>
               <Nav.Link href='/cart'>
                 <i className='fas fa-shopping-bag'></i> Shop
               </Nav.Link>
