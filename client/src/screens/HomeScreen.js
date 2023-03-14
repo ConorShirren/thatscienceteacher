@@ -9,7 +9,7 @@ const HomeScreen = () => {
       <h2>Latest Resources</h2>
       <Row>
         {products.map((product) => (
-          <Col sm={12} md={6} lg={4} xlg={2}>
+          <Col key={product._id} sm={12} md={6} lg={4} xlg={2}>
             <Product product={product} />
           </Col>
         ))}
