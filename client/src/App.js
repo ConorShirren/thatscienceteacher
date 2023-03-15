@@ -11,14 +11,12 @@ const App = () => {
     <Router>
       <Header></Header>
       <main className='py-3'>
-        <Container>
-          <Routes>
-            <Route path='/product/:id' element={<ProductScreen />} />
-            <Route path='/login' element={<HomeScreen />} />
-            <Route path='/cart' element={<HomeScreen />} />
-            <Route path='/' element={<HomeScreen />} />
-          </Routes>
-        </Container>
+        <Routes>
+          <Route path='/product/:id' element={<ProductScreen />} />
+          <Route path='/login' element={<HomeScreen />} />
+          <Route path='/cart' element={<HomeScreen />} />
+          <Route path='/' element={<HomeScreen />} />
+        </Routes>
       </main>
       <Footer></Footer>
     </Router>
