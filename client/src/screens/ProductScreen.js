@@ -1,6 +1,15 @@
-import React, { useState, useEffect } from 'react';
+import {
+  Button,
+  Card,
+  Col,
+  Container,
+  Image,
+  ListGroup,
+  Row,
+} from 'react-bootstrap';
 import { Link, useParams } from 'react-router-dom';
-import { Row, Col, Image, ListGroup, Card, Button } from 'react-bootstrap';
+import React, { useEffect, useState } from 'react';
+
 import Rating from '../components/Rating';
 import axios from 'axios';
 
@@ -18,7 +27,7 @@ const ProductScreen = () => {
   }, [id]);
 
   return (
-    <>
+    <Container>
       <Link className='btn btn-light my-3' to='/'>
         Go Back
       </Link>
@@ -73,7 +82,7 @@ const ProductScreen = () => {
           </Card>
         </Col>
       </Row>
-    </>
+    </Container>
   );
 };
 
