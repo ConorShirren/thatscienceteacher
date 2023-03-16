@@ -1,6 +1,5 @@
 const products = [
   {
-    _id: '1',
     name: 'LC Biology Resource List',
     image: '/images/tst_logo.png',
     description:
@@ -13,7 +12,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '2',
     name: 'Station Rotation Task Cards – LC M&S',
     image: '/images/tst_logo.png',
     description:
@@ -26,7 +24,6 @@ const products = [
     numReviews: 8,
   },
   {
-    _id: '3',
     name: 'Amoeba Facebook Profile Template',
     image: '/images/tst_logo.png',
     description:
@@ -39,7 +36,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '4',
     name: 'LC Genetic Cross Task Cards',
     image: '/images/tst_logo.png',
     description:
@@ -52,7 +48,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '5',
     name: 'Think Like Scientist Template',
     image: '/images/tst_logo.png',
     description:
@@ -65,7 +60,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '6',
     name: 'Final Countdown – LC Cell Structure',
     image: '/images/tst_logo.png',
     description:
