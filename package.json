@@ -9,8 +9,8 @@
     "server": "nodemon server/server",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "data:import": "node server/seeder",
-    "data:destroy": "node server/seeder -d"
+    "data:import": "node server/utils/seeder",
+    "data:destroy": "node server/utils/seeder -d"
   },
   "author": "Conor Shirren",
   "license": "ISC",
@@ -21,6 +21,7 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^7.0.2",
     "nodemon": "^2.0.21"
   }
